@@ -53,3 +53,28 @@ A simple AWS reference of stuff to be used in IAM.
 - `s3:DeleteBucketWebsite`
 - `s3:GetLifecycleConfiguration`
 - `s3:PutLifecycleConfiguration`
+
+## RDS
+
+### RDS Operations
+
+- `rds:CreateDBInstance`
+- `rds:ModifyDBInstance`
+- `rds:DeleteDBInstance`
+- `rds:DescribeDBLogFiles`
+- `rds:AddTagsToResource`
+- `rds:RemoveTagsFromResource`
+- `rds:RestoreDBInstanceToPointInTime`
+- `rds:RestoreDBInstanceFromDBSnapshot`
+- `rds:DownloadDBLogFilePortion`
+- `rds:DescribeDBInstances`
+
+### RDS Resources
+
+- `rds:DatabaseClass` (String) The DB instance class of a DB instance
+- `rds:DatabaseEngine` (String) The DB engine of the DB instance
+- `rds:DatabaseName` (String) The name of the database on the DB instance
+- `rds:MultiAz` (Integer) Indicates if the DB instance is running in multiple availability zones. 1 indicates that the DB instance is using multi-AZ.
+- `rds:Piops` (Integer) This key will be present when a request is made for a DB instance with PIOPs enabled. The value will contain the number of provisioned IOs that an instance supports. 0 indicates does not have PIOPs enabled.
+- `rds:StorageSize` (Integer) The storage volume size (in GB)
+- `rds:Vpc` (Integer) Indicates if the database instance is running in a virtual private cloud
