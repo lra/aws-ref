@@ -78,3 +78,38 @@ A simple AWS reference of stuff to be used in IAM.
 - `rds:Piops` (Integer) This key will be present when a request is made for a DB instance with PIOPs enabled. The value will contain the number of provisioned IOs that an instance supports. 0 indicates does not have PIOPs enabled.
 - `rds:StorageSize` (Integer) The storage volume size (in GB)
 - `rds:Vpc` (Integer) Indicates if the database instance is running in a virtual private cloud
+
+## IAM ARNs
+
+| Service                            | Namespace                    |
+| ---------------------------------- | ---------------------------- |
+| AWS Billing and Cost Management    | `aws-portal`                 |
+| Auto Scaling                       | `autoscaling`                |
+| AWS CloudFormation                 | `cloudformation`             |
+| Amazon CloudFront                  | `cloudfront`                 |
+| CloudWatch                         | `cloudwatch`                 |
+| DynamoDB                           | `dynamodb`                   |
+| Amazon EC2                         | `ec2`                        |
+| AWS Elastic Beanstalk              | `elasticbeanstalk`           |
+| Elastic Load Balancing             | `elasticloadbalancing`       |
+| Amazon Elastic MapReduce           | `elasticmapreduce`           |
+| Amazon ElastiCache                 | `elasticache`                |
+| Amazon Glacier                     | `glacier`                    |
+| AWS Identity and Access Management | `iam`                        |
+| Amazon Kinesis                     | `kinesis`                    |
+| AWS Marketplace                    | `aws-marketplace`            |
+| AWS Marketplace Management Portal  | `aws-marketplace-management` |
+| AWS OpsWorks                       | `opsworks`                   |
+| Amazon RDS                         | `rds`                        |
+| Amazon Redshift                    | `redshift`                   |
+| Amazon Route 53                    | `route53`                    |
+| Amazon S3                          | `s3`                         |
+| Amazon SES                         | `ses`                        |
+| Amazon SimpleDB                    | `sdb`                        |
+| Amazon SNS                         | `sns`                        |
+| Amazon SQS                         | `sqs`                        |
+| AWS Storage Gateway                | `storagegateway`             |
+| AWS STS                            | `sts`                        |
+| AWS Support                        | `support`                    |
+| Amazon SWF                         | `swf`                        |
+| Amazon VPC                         | `ec2`                        |
