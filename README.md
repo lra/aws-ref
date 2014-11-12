@@ -79,6 +79,38 @@ A simple AWS reference of stuff to be used in IAM.
 - `rds:StorageSize` (Integer) The storage volume size (in GB)
 - `rds:Vpc` (Integer) Indicates if the database instance is running in a virtual private cloud
 
+## CloudSearch
+
+### ClourSearch Operations
+
+- `cloudsearch:document`
+- `cloudsearch:search`
+- `cloudsearch:suggest`
+- `cloudsearch:BuildSuggesters`
+- `cloudsearch:CreateDomain`
+- `cloudsearch:DefineAnalysisScheme`
+- `cloudsearch:DefineExpression`
+- `cloudsearch:DefineIndexField`
+- `cloudsearch:DefineSuggester`
+- `cloudsearch:DeleteAnalysisScheme`
+- `cloudsearch:DeleteDomain`
+- `cloudsearch:DeleteExpression`
+- `cloudsearch:DeleteIndexField`
+- `cloudsearch:DeleteSuggester`
+- `cloudsearch:DescribeAnalysisSchemes`
+- `cloudsearch:DescribeAvailabilityOptions`
+- `cloudsearch:DescribeDomains`
+- `cloudsearch:DescribeExpressions`
+- `cloudsearch:DescribeIndexFields`
+- `cloudsearch:DescribeScalingParameters`
+- `cloudsearch:DescribeServiceAccessPolicies`
+- `cloudsearch:DescribeSuggesters`
+- `cloudsearch:IndexDocuments`
+- `cloudsearch:ListDomainNames`
+- `cloudsearch:UpdateAvailabilityOptions`
+- `cloudsearch:UpdateScalingParameters`
+- `cloudsearch:UpdateServiceAccessPolicies`
+
 ## IAM ARNs
 
 | Service                            | Namespace                    |
