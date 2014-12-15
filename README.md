@@ -111,6 +111,24 @@ A simple AWS reference of stuff to be used in IAM.
 - `cloudsearch:UpdateScalingParameters`
 - `cloudsearch:UpdateServiceAccessPolicies`
 
+## DynamoDB
+
+### DynamoDB Operations
+
+- `dynamodb:BatchGetItem`
+- `dynamodb:BatchWriteItem`
+- `dynamodb:CreateTable`
+- `dynamodb:DeleteItem`
+- `dynamodb:DeleteTable`
+- `dynamodb:DescribeTable`
+- `dynamodb:GetItem`
+- `dynamodb:ListTables`
+- `dynamodb:PutItem`
+- `dynamodb:Query`
+- `dynamodb:Scan`
+- `dynamodb:UpdateItem`
+- `dynamodb:UpdateTable`
+
 ## IAM ARNs
 
 | Service                            | Namespace                    |
