@@ -58,16 +58,63 @@ A simple AWS reference of stuff to be used in IAM.
 
 ### RDS Operations
 
+- `rds:AddSourceIdentifierToSubscription`ß
 - `rds:AddTagsToResource`
+- `rds:ApplyPendingMaintenanceAction`
+- `rds:AuthorizeDBSecurityGroupIngress`
+- `rds:CopyDBParameterGroup`
+- `rds:CopyDBSnapshot`
+- `rds:CopyOptionGroup`
 - `rds:CreateDBInstance`
+- `rds:CreateDBInstanceReadReplica`
+- `rds:CreateDBParameterGroup`
+- `rds:CreateDBSecurityGroup`
+- `rds:CreateDBSnapshot`
+- `rds:CreateDBSubnetGroup`
+- `rds:CreateEventSubscription`
+- `rds:CreateOptionGroup`
 - `rds:DeleteDBInstance`
+- `rds:DeleteDBParameterGroup`
+- `rds:DeleteDBSecurityGroup`
+- `rds:DeleteDBSnapshot`
+- `rds:DeleteDBSubnetGroup`
+- `rds:DeleteEventSubscription`
+- `rds:DeleteOptionGroup`
+- `rds:DescribeAccountAttributes`
+- `rds:DescribeDBEngineVersions`
 - `rds:DescribeDBInstances`
 - `rds:DescribeDBLogFiles`
+- `rds:DescribeDBParameterGroups`
+- `rds:DescribeDBParameters`
+- `rds:DescribeDBSecurityGroups`
+- `rds:DescribeDBSnapshots`
+- `rds:DescribeDBSubnetGroups`
+- `rds:DescribeEngineDefaultParameters`
+- `rds:DescribeEventCategories`
+- `rds:DescribeEvents`
+- `rds:DescribeEventSubscriptions`
+- `rds:DescribeOptionGroupOptions`
+- `rds:DescribeOptionGroups`
+- `rds:DescribeOrderableDBInstanceOptions`
+- `rds:DescribePendingMaintenanceActions`
+- `rds:DescribeReservedDBInstances`
+- `rds:DescribeReservedDBInstancesOfferings`
 - `rds:DownloadDBLogFilePortion`
+- `rds:ListTagsForResource`
 - `rds:ModifyDBInstance`
+- `rds:ModifyDBParameterGroup`
+- `rds:ModifyDBSubnetGroup`
+- `rds:ModifyEventSubscription`
+- `rds:ModifyOptionGroup`
+- `rds:PromoteReadReplica`
+- `rds:PurchaseReservedDBInstancesOffering`
+- `rds:RebootDBInstance`
+- `rds:RemoveSourceIdentifierFromSubscription`
 - `rds:RemoveTagsFromResource`
+- `rds:ResetDBParameterGroup`
 - `rds:RestoreDBInstanceFromDBSnapshot`
 - `rds:RestoreDBInstanceToPointInTime`
+- `rds:RevokeDBSecurityGroupIngress`
 
 ### RDS Resources
 
